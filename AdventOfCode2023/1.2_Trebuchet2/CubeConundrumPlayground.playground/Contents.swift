@@ -205,7 +205,7 @@ class CubeConundrum {
             // before iterating, colorsToPass == amount of colors that need to be passed
             // if color's value is not out of bounds colorsToPass -= 1
             // if after iterating colorsToPass == 0 it means that color's value EXCEEDED the maxAmount
-                // this strategy is better than
+                // this strategy is better than use bool, beacause we can use only 1 variable
             var colorsToPass: Int = attempts.values.count
             // check if the value of the color is out of bounds for corresponding color
             for (color, _) in attempts {
