@@ -22,6 +22,7 @@
 		9F50209A2B2626560071109A /* TrebuchetSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrebuchetSolution.swift; sourceTree = "<group>"; };
 		9F50209C2B262D890071109A /* TrebuchetPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TrebuchetPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F50209E2B262E3D0071109A /* Trebuchet2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Trebuchet2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F5020A12B2638A20071109A /* CubeConundrum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = CubeConundrum.playground; path = AdventOfCode2023/1.2_Trebuchet2/CubeConundrum.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FE0A0342B1C981D00351F1F /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2023App.swift; sourceTree = "<group>"; };
 		9FE0A0392B1C981D00351F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		9F50209F2B262FAC0071109A /* 2.1_CubeConundrum */ = {
 			isa = PBXGroup;
 			children = (
+				9F5020A12B2638A20071109A /* CubeConundrum.playground */,
 			);
 			path = 2.1_CubeConundrum;
 			sourceTree = "<group>";
