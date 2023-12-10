@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F5020962B261BD90071109A /* TrebuchetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5020952B261BD90071109A /* TrebuchetView.swift */; };
+		9F5020992B261D580071109A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5020982B261D580071109A /* Color.swift */; };
 		9FE0A0382B1C981D00351F1F /* AdventOfCode2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */; };
 		9FE0A03A2B1C981D00351F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0A0392B1C981D00351F1F /* ContentView.swift */; };
 		9FE0A03C2B1C981E00351F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0A03B2B1C981E00351F1F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		9F5020952B261BD90071109A /* TrebuchetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrebuchetView.swift; sourceTree = "<group>"; };
+		9F5020982B261D580071109A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9FE0A0342B1C981D00351F1F /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2023App.swift; sourceTree = "<group>"; };
 		9FE0A0392B1C981D00351F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 			path = 1.1_Trebuchet;
 			sourceTree = "<group>";
 		};
+		9F5020972B261D460071109A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F5020982B261D580071109A /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9FE0A02B2B1C981D00351F1F = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */,
+				9F5020972B261D460071109A /* Extensions */,
 				9FE0A0392B1C981D00351F1F /* ContentView.swift */,
 				9F5020942B261BA70071109A /* 1.1_Trebuchet */,
 				9FE0A03B2B1C981E00351F1F /* Assets.xcassets */,
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE0A03A2B1C981D00351F1F /* ContentView.swift in Sources */,
+				9F5020992B261D580071109A /* Color.swift in Sources */,
 				9F5020962B261BD90071109A /* TrebuchetView.swift in Sources */,
 				9FE0A0382B1C981D00351F1F /* AdventOfCode2023App.swift in Sources */,
 			);

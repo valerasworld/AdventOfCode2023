@@ -9,7 +9,13 @@ import SwiftUI
 
 struct TrebuchetView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.theme.background
+                .ignoresSafeArea()
+            
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                .foregroundStyle(Color.theme.regular)
+        }
     }
 }
 
