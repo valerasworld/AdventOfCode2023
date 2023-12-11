@@ -24,6 +24,7 @@
 		9F50209E2B262E3D0071109A /* Trebuchet2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Trebuchet2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F5020A12B2638A20071109A /* CubeConundrumPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = CubeConundrumPlayground.playground; path = AdventOfCode2023/1.2_Trebuchet2/CubeConundrumPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F5020A22B265C020071109A /* 2.2_CubeConundrum2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2.2_CubeConundrum2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F5020A42B2666730071109A /* 5.1_IfYouGiveASeedAFertilizerPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5.1_IfYouGiveASeedAFertilizerPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FE0A0342B1C981D00351F1F /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2023App.swift; sourceTree = "<group>"; };
 		9FE0A0392B1C981D00351F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +85,14 @@
 			path = 2.2_CubeConundrum2;
 			sourceTree = "<group>";
 		};
+		9F5020A32B2665F40071109A /* 5.1_IfYouGiveASeedAFertilizer */ = {
+			isa = PBXGroup;
+			children = (
+				9F5020A42B2666730071109A /* 5.1_IfYouGiveASeedAFertilizerPlayground.playground */,
+			);
+			path = 5.1_IfYouGiveASeedAFertilizer;
+			sourceTree = "<group>";
+		};
 		9FE0A02B2B1C981D00351F1F = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +119,7 @@
 				9F50209D2B262E1A0071109A /* 1.2_Trebuchet2 */,
 				9F50209F2B262FAC0071109A /* 2.1_CubeConundrum */,
 				9F5020A02B262FCD0071109A /* 2.2_CubeConundrum2 */,
+				9F5020A32B2665F40071109A /* 5.1_IfYouGiveASeedAFertilizer */,
 				9FE0A03B2B1C981E00351F1F /* Assets.xcassets */,
 				9FE0A03D2B1C981E00351F1F /* Preview Content */,
 			);

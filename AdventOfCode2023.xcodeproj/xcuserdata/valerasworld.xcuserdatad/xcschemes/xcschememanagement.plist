@@ -25,6 +25,27 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>5.1_IfYouGiveASeedAFertilizerPlayground (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>5.1_IfYouGiveASeedAFertilizerPlayground (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>5.1_IfYouGiveASeedAFertilizerPlayground (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>AdventOfCode2023.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
