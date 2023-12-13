@@ -342,10 +342,10 @@ class IfYouGiveASeedAFertilizer2 {
         var minLocation: Int = 0
                 
         for range in actualSeeds {
-            
+            print("🔴 Range is: \(range)")
             for seed in range.key...(range.key + range.value - 1) {
                 
-//                print("🌱 Seed is: \(seed)")
+                print("🌱 Seed is: \(seed)")
                 var currentValue: Int = seed
                 for level in allMaps {
                     for range in level {
@@ -367,6 +367,7 @@ class IfYouGiveASeedAFertilizer2 {
                     //
                 }
                 
+                print("🌱🌱🌱 Value is: \(currentValue)\n")
                 // check if it's the first level iterarion:
                 if minLocation == 0 {
                     minLocation = currentValue
@@ -384,6 +385,45 @@ class IfYouGiveASeedAFertilizer2 {
      
 }
 
-//IfYouGiveASeedAFertilizer2().findMinLocationForActualSeeds(input: IfYouGiveASeedAFertilizer2().shortInput)
-IfYouGiveASeedAFertilizer2().findMinLocationForActualSeeds(input: IfYouGiveASeedAFertilizer2().longInput)
+IfYouGiveASeedAFertilizer2().findMinLocationForActualSeeds(input: IfYouGiveASeedAFertilizer2().shortInput)
+//IfYouGiveASeedAFertilizer2().findMinLocationForActualSeeds(input: IfYouGiveASeedAFertilizer2().longInput)
 
+/*
+ 
+ """
+ seeds: 79 14 55 13
+
+ seed-to-soil map:
+ 50 98 2
+ 52 50 48
+ 
+ soil-to-fertilizer map:
+ 0 15 37
+ 37 52 2
+ 39 0 15
+
+ fertilizer-to-water map:
+ 49 53 8
+ 0 11 42
+ 42 0 7
+ 57 7 4
+ 
+ water-to-light map:
+ 88 18 7
+ 18 25 70
+ 
+ light-to-temperature map:
+ 45 77 23
+ 81 45 19
+ 68 64 13
+ 
+ temperature-to-humidity map:
+ 0 69 1
+ 1 0 69
+ 
+ humidity-to-location map:
+ 60 56 37
+ 56 93 4
+ """
+ 
+ */
