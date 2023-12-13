@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1E40412B2A69D800E3B4F0 /* 6.1_WaitForIt2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 6.1_WaitForIt2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F5020952B261BD90071109A /* TrebuchetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrebuchetView.swift; sourceTree = "<group>"; };
 		9F5020982B261D580071109A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9F50209A2B2626560071109A /* TrebuchetSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrebuchetSolution.swift; sourceTree = "<group>"; };
@@ -45,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1E40402B2A69D800E3B4F0 /* 6.2_WaitForIt2 */ = {
+			isa = PBXGroup;
+			children = (
+				9F1E40412B2A69D800E3B4F0 /* 6.1_WaitForIt2Playground.playground */,
+			);
+			path = 6.2_WaitForIt2;
+			sourceTree = "<group>";
+		};
 		9F5020942B261BA70071109A /* 1.1_Trebuchet */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +149,7 @@
 				9F5020A32B2665F40071109A /* 5.1_IfYouGiveASeedAFertilizer */,
 				9F5020A72B276ECF0071109A /* 5.2_IfYouGiveASeedAFertilizer2 */,
 				9F91B8A02B29262600D6D069 /* 6.1_WaitForIt */,
+				9F1E40402B2A69D800E3B4F0 /* 6.2_WaitForIt2 */,
 				9FE0A03B2B1C981E00351F1F /* Assets.xcassets */,
 				9FE0A03D2B1C981E00351F1F /* Preview Content */,
 			);
