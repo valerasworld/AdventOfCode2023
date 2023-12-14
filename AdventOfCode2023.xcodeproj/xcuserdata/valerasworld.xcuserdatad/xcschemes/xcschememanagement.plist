@@ -23,7 +23,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>5.1_IfYouGiveASeedAFertilizerPlayground (Playground) 1.xcscheme</key>
 		<dict>
@@ -51,7 +51,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>0</integer>
 		</dict>
 		<key>5.2_IfYouGiveASeedAFrtilizer2Playground (Playground) 1.xcscheme</key>
 		<dict>
@@ -158,10 +158,17 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>6.2_WaitForIt2Playground (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>AdventOfCode2023.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>CubeConundrum (Playground) 1.xcscheme</key>
 		<dict>
@@ -210,7 +217,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Day1_Trebuchet (Playground) 1.xcscheme</key>
 		<dict>
@@ -294,7 +301,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 </dict>

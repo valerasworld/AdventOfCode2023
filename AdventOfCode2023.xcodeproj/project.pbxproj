@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F1E40412B2A69D800E3B4F0 /* 6.1_WaitForIt2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 6.1_WaitForIt2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F1E40412B2A69D800E3B4F0 /* 6.2_WaitForIt2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 6.2_WaitForIt2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F5020952B261BD90071109A /* TrebuchetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrebuchetView.swift; sourceTree = "<group>"; };
 		9F5020982B261D580071109A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9F50209A2B2626560071109A /* TrebuchetSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrebuchetSolution.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		9F1E40402B2A69D800E3B4F0 /* 6.2_WaitForIt2 */ = {
 			isa = PBXGroup;
 			children = (
-				9F1E40412B2A69D800E3B4F0 /* 6.1_WaitForIt2Playground.playground */,
+				9F1E40412B2A69D800E3B4F0 /* 6.2_WaitForIt2Playground.playground */,
 			);
 			path = 6.2_WaitForIt2;
 			sourceTree = "<group>";
