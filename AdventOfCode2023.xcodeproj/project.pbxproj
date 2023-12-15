@@ -29,6 +29,7 @@
 		9F5020A82B276F000071109A /* 5.2_IfYouGiveASeedAFertilizer2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5.2_IfYouGiveASeedAFertilizer2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F60C8F82B2B8E7400372857 /* 7.1_CamelCardsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 7.1_CamelCardsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F60C8FA2B2D022500372857 /* 7.2_CamelCards2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 7.2_CamelCards2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F60C8FC2B2D13CC00372857 /* 8.1_HauntedWastelandPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 8.1_HauntedWastelandPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F91B8A12B2926B200D6D069 /* WaitForItPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WaitForItPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FE0A0342B1C981D00351F1F /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2023App.swift; sourceTree = "<group>"; };
@@ -130,6 +131,14 @@
 			path = 7.2_CamelCards2;
 			sourceTree = "<group>";
 		};
+		9F60C8FB2B2D13A800372857 /* 8.1_HauntedWasteland */ = {
+			isa = PBXGroup;
+			children = (
+				9F60C8FC2B2D13CC00372857 /* 8.1_HauntedWastelandPlayground.playground */,
+			);
+			path = 8.1_HauntedWasteland;
+			sourceTree = "<group>";
+		};
 		9F91B8A02B29262600D6D069 /* 6.1_WaitForIt */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +179,7 @@
 				9F1E40402B2A69D800E3B4F0 /* 6.2_WaitForIt2 */,
 				9F60C8F72B2B8E2E00372857 /* 7.1_CamelCards */,
 				9F60C8F92B2D01D800372857 /* 7.2_CamelCards2 */,
+				9F60C8FB2B2D13A800372857 /* 8.1_HauntedWasteland */,
 				9FE0A03B2B1C981E00351F1F /* Assets.xcassets */,
 				9FE0A03D2B1C981E00351F1F /* Preview Content */,
 			);
