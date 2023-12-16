@@ -32,6 +32,7 @@
 		9F60C8FC2B2D13CC00372857 /* 8.1_HauntedWastelandPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 8.1_HauntedWastelandPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F60C8FE2B2D1F2D00372857 /* 8.2_HauntedWasteland2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 8.2_HauntedWasteland2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F91B8A12B2926B200D6D069 /* WaitForItPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WaitForItPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FB5D11A2B2E57E8007B3F67 /* 9.1_MirageMaintenancePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 9.1_MirageMaintenancePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FE0A0342B1C981D00351F1F /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE0A0372B1C981D00351F1F /* AdventOfCode2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2023App.swift; sourceTree = "<group>"; };
 		9FE0A0392B1C981D00351F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +157,14 @@
 			path = 6.1_WaitForIt;
 			sourceTree = "<group>";
 		};
+		9FB5D1192B2E57B5007B3F67 /* 9.1_MirageMaintanance */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5D11A2B2E57E8007B3F67 /* 9.1_MirageMaintenancePlayground.playground */,
+			);
+			path = 9.1_MirageMaintanance;
+			sourceTree = "<group>";
+		};
 		9FE0A02B2B1C981D00351F1F = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +199,7 @@
 				9F60C8F92B2D01D800372857 /* 7.2_CamelCards2 */,
 				9F60C8FB2B2D13A800372857 /* 8.1_HauntedWasteland */,
 				9F60C8FD2B2D1EF800372857 /* 8.2_HauntedWasteland2 */,
+				9FB5D1192B2E57B5007B3F67 /* 9.1_MirageMaintanance */,
 				9FE0A03B2B1C981E00351F1F /* Assets.xcassets */,
 				9FE0A03D2B1C981E00351F1F /* Preview Content */,
 			);
