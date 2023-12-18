@@ -32,6 +32,7 @@
 		9F60C8FC2B2D13CC00372857 /* 8.1_HauntedWastelandPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 8.1_HauntedWastelandPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F60C8FE2B2D1F2D00372857 /* 8.2_HauntedWasteland2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 8.2_HauntedWasteland2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9F91B8A12B2926B200D6D069 /* WaitForItPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WaitForItPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FAA1A592B2F551B003CE71C /* 10.1_PipeMaze.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 10.1_PipeMaze.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FB5D11A2B2E57E8007B3F67 /* 9.1_MirageMaintenancePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 9.1_MirageMaintenancePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FB5D11C2B2E6ADA007B3F67 /* 9.2_MirageMaintanance2Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 9.2_MirageMaintanance2Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9FE0A0342B1C981D00351F1F /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +159,14 @@
 			path = 6.1_WaitForIt;
 			sourceTree = "<group>";
 		};
+		9FAA1A582B2F54FE003CE71C /* 10.1_PipeMaze */ = {
+			isa = PBXGroup;
+			children = (
+				9FAA1A592B2F551B003CE71C /* 10.1_PipeMaze.playground */,
+			);
+			path = 10.1_PipeMaze;
+			sourceTree = "<group>";
+		};
 		9FB5D1192B2E57B5007B3F67 /* 9.1_MirageMaintanance */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +219,7 @@
 				9F60C8FD2B2D1EF800372857 /* 8.2_HauntedWasteland2 */,
 				9FB5D1192B2E57B5007B3F67 /* 9.1_MirageMaintanance */,
 				9FB5D11B2B2E6AB5007B3F67 /* 9.2_MirageMaintanance2 */,
+				9FAA1A582B2F54FE003CE71C /* 10.1_PipeMaze */,
 				9FE0A03B2B1C981E00351F1F /* Assets.xcassets */,
 				9FE0A03D2B1C981E00351F1F /* Preview Content */,
 			);
