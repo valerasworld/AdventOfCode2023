@@ -1,6 +1,6 @@
 import UIKit
 
-class CosmicExpansion {
+class CosmicExpansion2 {
     
     var shortInput: String {
         let input =
@@ -165,15 +165,16 @@ class CosmicExpansion {
         return input
     }
     
-    func sumOfShortestWays(input: String) -> Int {
+    func sumOfShortestWays(input: String, multiplyerOfTheEmtyRowOrColumn: Int) -> Int {
         var sum: Int = 0
         
         //
         var lines: [String] = input.components(separatedBy: "\n")
         var grid: [[Character]] = []
         
-        // MARK: - Get Grid with doubled empty Rows
-        
+        // MARK: - Get Grid with marked empty Rows and add their indices to the array
+       
+        var emptyRowsIndices: [Int] = []
         var emptyColumnsIndices: [Int] = Array<Int>(0...(lines[0].count - 1))
                 
         for line in lines {
@@ -186,26 +187,29 @@ class CosmicExpansion {
                     }
                 }
             } else {
-                for _ in 1...2 {
-                    grid.append(row)
-                }
+                let markedRow: [Character] = Array<Character>(repeating: "$", count: row.count)
+                grid.append(markedRow)
+                emptyRowsIndices.append((grid.count - 1))
             }
             
         }
         
-        // MARK: - Get the real Grid
+        // MARK: - Get the real Grid and add marked columns indices to the array
         
         var realGrid: [[Character]] = []
         
         for row in grid {
             var newRow = row
-            for (offset, emptyColumnIndex) in emptyColumnsIndices.enumerated(){
-                newRow.insert(".", at: emptyColumnIndex + 1 + offset)
+            for emptyColumnIndex in emptyColumnsIndices{
+                newRow.remove(at: emptyColumnIndex)
+                newRow.insert("$", at: emptyColumnIndex)
             }
             realGrid.append(newRow)
+            
         }
         
         // MARK: - Indices of all the "#"-characters
+        
         var allGalaxies: [[Int]] = []
         
         for (rowIndex, row) in realGrid.enumerated() {
@@ -224,11 +228,43 @@ class CosmicExpansion {
         for (galaxyNumber, galaxyIndices) in allGalaxies.enumerated() {
             guard galaxyNumber != (allGalaxies.count - 1) else { break }
             
-            for nextGalaxyNumber in allGalaxies[(galaxyNumber + 1)...(allGalaxies.count - 1)] {
-                var verticalyFar: Int = abs(nextGalaxyNumber[0] - galaxyIndices[0])
-                var horizontalyFar: Int = abs(nextGalaxyNumber[1] - galaxyIndices[1])
+            for nextGalaxyIndices in allGalaxies[(galaxyNumber + 1)...(allGalaxies.count - 1)] {
+                let galaxyRowIndex = galaxyIndices[0]
+                let galaxyColumnIndex = galaxyIndices[1]
                 
-                var length: Int = horizontalyFar + verticalyFar
+                let nextGalaxyRowIndex = nextGalaxyIndices[0]
+                let nextGalaxyColumnIndex = nextGalaxyIndices[1]
+
+                var numberOfBlackHolesCrossing: Int = 0
+        
+                for emptyRowIndex in emptyRowsIndices {
+                    if galaxyRowIndex <= nextGalaxyRowIndex {
+                        if galaxyRowIndex < emptyRowIndex && emptyRowIndex < nextGalaxyRowIndex {
+                            numberOfBlackHolesCrossing += 1
+                        }
+                    } else {
+                        if galaxyRowIndex > emptyRowIndex && emptyRowIndex > nextGalaxyRowIndex {
+                            numberOfBlackHolesCrossing += 1
+                        }
+                    }
+                }
+                
+                for emptyColumnIndex in emptyColumnsIndices {
+                    if galaxyColumnIndex <= nextGalaxyColumnIndex {
+                        if galaxyColumnIndex < emptyColumnIndex && emptyColumnIndex < nextGalaxyColumnIndex {
+                            numberOfBlackHolesCrossing += 1
+                        }
+                    } else {
+                        if galaxyColumnIndex > emptyColumnIndex && emptyColumnIndex > nextGalaxyColumnIndex {
+                            numberOfBlackHolesCrossing += 1
+                        }
+                    }
+                }
+                
+                var verticalyFar: Int = abs(nextGalaxyIndices[0] - galaxyIndices[0])
+                var horizontalyFar: Int = abs(nextGalaxyIndices[1] - galaxyIndices[1])
+                
+                var length: Int = horizontalyFar + verticalyFar - numberOfBlackHolesCrossing + (numberOfBlackHolesCrossing * multiplyerOfTheEmtyRowOrColumn)
                 sum += length
             }
         }
@@ -237,5 +273,7 @@ class CosmicExpansion {
     }
 }
 
-//CosmicExpansion().sumOfShortestWays(input: CosmicExpansion().shortInput) // Right answer: 374
-CosmicExpansion().sumOfShortestWays(input: CosmicExpansion().longInput) // Right answer: 10077850
+//CosmicExpansion2().sumOfShortestWays(input: CosmicExpansion2().shortInput, multiplyerOfTheEmtyRowOrColumn: 10) // Right answer: 1030
+//CosmicExpansion2().sumOfShortestWays(input: CosmicExpansion2().shortInput, multiplyerOfTheEmtyRowOrColumn: 100) // Right answer: 8410
+
+CosmicExpansion2().sumOfShortestWays(input: CosmicExpansion2().longInput, multiplyerOfTheEmtyRowOrColumn: 1000000) // Right answer: 504715068438
